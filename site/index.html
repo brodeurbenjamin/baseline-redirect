@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BASELINE Tracking has moved</title>
+<!-- Sends old baseline.hybridbyben.com links to hybridbyben.com/baseline/,
+     keeping any path, query and #anchor. 404.html is a copy, so every path works. -->
+<script>
+  location.replace('https://hybridbyben.com/baseline/' + location.pathname.replace(/^\/+/, '') + location.search + location.hash);
+</script>
+<meta http-equiv="refresh" content="0; url=https://hybridbyben.com/baseline/">
+<link rel="canonical" href="https://hybridbyben.com/baseline/">
+<style>
+  :root { --bg:#f6f7f9; --text:#16181d; --muted:#6a7280; --accent:#e4572e }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0e1116; --text:#eef0f3; --muted:#8e97a6; --accent:#ff7a50 }
+  }
+  body { margin:0; background:var(--bg); color:var(--text);
+         font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif }
+  .wrap { max-width:720px; margin:0 auto; padding:48px 16px }
+  p { color:var(--muted) }
+  a { color:var(--accent); font-weight:600 }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <p>BASELINE Tracking has moved to
+    <a href="https://hybridbyben.com/baseline/">hybridbyben.com/baseline</a>.</p>
+</div>
+</body>
+</html>
